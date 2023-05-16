@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 
-const API_KEY = "91256a0530b9b02ca05a2233a7608072"; 
+const API_KEY = "3a6f74cee25ceac664d9151544990262"; 
 
 app.get('/weather/:lat/:lon', (req, res) => {
   // res.send('Hello World!');
